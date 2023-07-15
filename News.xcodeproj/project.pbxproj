@@ -15,6 +15,7 @@
 		72786B1B2A6064DC0029BEA8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72786B1A2A6064DC0029BEA8 /* Config.swift */; };
 		72786B1D2A6075530029BEA8 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72786B1C2A6075530029BEA8 /* NewsViewController.swift */; };
 		72786B1F2A6079430029BEA8 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72786B1E2A6079430029BEA8 /* News.swift */; };
+		72D925622A61F7B800E5233B /* GPTReteller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D925612A61F7B800E5233B /* GPTReteller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		72786B1A2A6064DC0029BEA8 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		72786B1C2A6075530029BEA8 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		72786B1E2A6079430029BEA8 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		72D925612A61F7B800E5233B /* GPTReteller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTReteller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				7257701A2A6009530046698A /* Assets.xcassets */,
 				7257701C2A6009530046698A /* LaunchScreen.storyboard */,
 				7257701F2A6009530046698A /* Info.plist */,
+				72D925612A61F7B800E5233B /* GPTReteller.swift */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D925622A61F7B800E5233B /* GPTReteller.swift in Sources */,
 				72786B1F2A6079430029BEA8 /* News.swift in Sources */,
 				725770162A6009500046698A /* MenuViewController.swift in Sources */,
 				72786B1B2A6064DC0029BEA8 /* Config.swift in Sources */,
