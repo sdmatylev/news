@@ -20,7 +20,7 @@ func makeChatRequest(_ message: String, completitions: @escaping (String?) -> Vo
     ]
     
     let headers = [
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer \(apiKey)",
         "Content-Type": "application/json"
     ]
     

@@ -16,6 +16,8 @@
 		72786B1D2A6075530029BEA8 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72786B1C2A6075530029BEA8 /* NewsViewController.swift */; };
 		72786B1F2A6079430029BEA8 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72786B1E2A6079430029BEA8 /* News.swift */; };
 		72D925622A61F7B800E5233B /* GPTReteller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D925612A61F7B800E5233B /* GPTReteller.swift */; };
+		72D925642A645F1500E5233B /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D925632A645F1500E5233B /* APIKey.swift */; };
+		72D925682A6463FC00E5233B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 72D925672A6463FC00E5233B /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		72786B1C2A6075530029BEA8 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		72786B1E2A6079430029BEA8 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		72D925612A61F7B800E5233B /* GPTReteller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTReteller.swift; sourceTree = "<group>"; };
+		72D925632A645F1500E5233B /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		72D925672A6463FC00E5233B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 		725770052A6009500046698A = {
 			isa = PBXGroup;
 			children = (
+				72D925672A6463FC00E5233B /* .gitignore */,
 				725770102A6009500046698A /* News */,
 				7257700F2A6009500046698A /* Products */,
 			);
@@ -62,18 +67,43 @@
 		725770102A6009500046698A /* News */ = {
 			isa = PBXGroup;
 			children = (
-				725770112A6009500046698A /* AppDelegate.swift */,
-				725770132A6009500046698A /* SceneDelegate.swift */,
-				725770152A6009500046698A /* MenuViewController.swift */,
-				72786B1C2A6075530029BEA8 /* NewsViewController.swift */,
-				72786B1E2A6079430029BEA8 /* News.swift */,
-				72786B1A2A6064DC0029BEA8 /* Config.swift */,
+				72D925612A61F7B800E5233B /* GPTReteller.swift */,
+				72D9256A2A64649000E5233B /* ViewControllers */,
+				72D925692A64646800E5233B /* Delegates */,
+				72D9256B2A6464AA00E5233B /* Settings */,
 				7257701A2A6009530046698A /* Assets.xcassets */,
 				7257701C2A6009530046698A /* LaunchScreen.storyboard */,
 				7257701F2A6009530046698A /* Info.plist */,
-				72D925612A61F7B800E5233B /* GPTReteller.swift */,
+				72D925632A645F1500E5233B /* APIKey.swift */,
 			);
 			path = News;
+			sourceTree = "<group>";
+		};
+		72D925692A64646800E5233B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				725770112A6009500046698A /* AppDelegate.swift */,
+				725770132A6009500046698A /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		72D9256A2A64649000E5233B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				725770152A6009500046698A /* MenuViewController.swift */,
+				72786B1C2A6075530029BEA8 /* NewsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		72D9256B2A6464AA00E5233B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				72786B1A2A6064DC0029BEA8 /* Config.swift */,
+				72786B1E2A6079430029BEA8 /* News.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D925682A6463FC00E5233B /* .gitignore in Resources */,
 				7257701E2A6009530046698A /* LaunchScreen.storyboard in Resources */,
 				7257701B2A6009530046698A /* Assets.xcassets in Resources */,
 			);
@@ -148,6 +179,7 @@
 			files = (
 				72D925622A61F7B800E5233B /* GPTReteller.swift in Sources */,
 				72786B1F2A6079430029BEA8 /* News.swift in Sources */,
+				72D925642A645F1500E5233B /* APIKey.swift in Sources */,
 				725770162A6009500046698A /* MenuViewController.swift in Sources */,
 				72786B1B2A6064DC0029BEA8 /* Config.swift in Sources */,
 				725770122A6009500046698A /* AppDelegate.swift in Sources */,
