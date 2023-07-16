@@ -17,7 +17,6 @@
 		72786B1F2A6079430029BEA8 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72786B1E2A6079430029BEA8 /* News.swift */; };
 		72D925622A61F7B800E5233B /* GPTReteller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D925612A61F7B800E5233B /* GPTReteller.swift */; };
 		72D925642A645F1500E5233B /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D925632A645F1500E5233B /* APIKey.swift */; };
-		72D925682A6463FC00E5233B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 72D925672A6463FC00E5233B /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		72786B1E2A6079430029BEA8 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		72D925612A61F7B800E5233B /* GPTReteller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTReteller.swift; sourceTree = "<group>"; };
 		72D925632A645F1500E5233B /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
-		72D925672A6463FC00E5233B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +48,6 @@
 		725770052A6009500046698A = {
 			isa = PBXGroup;
 			children = (
-				72D925672A6463FC00E5233B /* .gitignore */,
 				725770102A6009500046698A /* News */,
 				7257700F2A6009500046698A /* Products */,
 			);
@@ -164,7 +161,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72D925682A6463FC00E5233B /* .gitignore in Resources */,
 				7257701E2A6009530046698A /* LaunchScreen.storyboard in Resources */,
 				7257701B2A6009530046698A /* Assets.xcassets in Resources */,
 			);
